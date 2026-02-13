@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="r1" cx="20%" cy="20%" r="70%">
+      <stop offset="0" stop-color="#8bd3ff" stop-opacity="0.35"></stop>
+      <stop offset="1" stop-color="#0b1220" stop-opacity="0"></stop>
+    </radialGradient>
+    <radialGradient id="r2" cx="85%" cy="25%" r="70%">
+      <stop offset="0" stop-color="#b9ffcf" stop-opacity="0.22"></stop>
+      <stop offset="1" stop-color="#0b1220" stop-opacity="0"></stop>
+    </radialGradient>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8bd3ff"></stop>
+      <stop offset="1" stop-color="#b9ffcf"></stop>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#0b1220"></rect>
+  <rect width="1200" height="630" fill="url(#r1)"></rect>
+  <rect width="1200" height="630" fill="url(#r2)"></rect>
+
+  <rect x="70" y="80" width="1060" height="470" rx="36" fill="rgba(255,255,255,0.03)" stroke="rgba(231,238,252,0.14)" stroke-width="2"></rect>
+  <rect x="110" y="130" width="74" height="74" rx="22" fill="url(#g)"></rect>
+  <path d="M130 172 L147 156 L164 172" fill="none" stroke="#0b1220" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M135 170 V192 H159 V170" fill="none" stroke="#0b1220" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"></path>
+
+  <text x="210" y="168" fill="#e7eefc" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="44" font-weight="800">
+    Home Owners Trust Fund
+  </text>
+  <text x="210" y="214" fill="#a9b7d6" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="22" font-weight="700">
+    One time, full capital grants for debt free homeownership
+  </text>
+
+  <text x="110" y="310" fill="#e7eefc" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="28" font-weight="800">
+    You own the home. No mortgage payment.
+  </text>
+  <text x="110" y="352" fill="#a9b7d6" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="22">
+    You manage taxes, insurance, and maintenance.
+  </text>
+
+  <rect x="110" y="404" width="320" height="66" rx="18" fill="rgba(139,211,255,0.12)" stroke="rgba(139,211,255,0.26)" stroke-width="2"></rect>
+  <text x="150" y="447" fill="#e7eefc" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="20" font-weight="800">
+    Read the rules and process
+  </text>
+
+  <text x="110" y="510" fill="#a9b7d6" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="18">
+    HomeOwnersTrustFund.com
+  </text>
+</svg>
