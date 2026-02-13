@@ -1,1 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact, Home Owners Trust Fund</title>
+  <meta name="description" content="Contact form for applicants, donors, and partners. Static GitHub Pages intake routing." />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Home Owners Trust Fund">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-text">
+          <span class="brand-name">Home Owners Trust Fund</span>
+          <span class="brand-tag">One time grants. Debt free homes.</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" data-nav-toggle aria-controls="site-nav" aria-expanded="false">
+        Menu
+      </button>
+
+      <nav id="site-nav" class="site-nav" data-nav>
+        <a href="model.html">Model</a>
+        <a href="rules.html">Rules</a>
+        <a href="process.html">Vetting</a>
+        <a href="donors.html">Donors</a>
+        <a href="tech.html">Tech</a>
+        <a href="faq.html">FAQ</a>
+        <a class="active btn btn-small" href="contact.html" aria-current="page">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="page">
+    <section class="page-hero">
+      <div class="container">
+        <p class="kicker">Contact</p>
+        <h1>Intake and inquiries</h1>
+        <p class="lead">This form opens your email client. No data stores on this site.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="grid-2">
+          <div class="panel">
+            <h2>Start here</h2>
+            <ul class="bullets">
+              <li>Applicants, include state, county, household size, income type, and time in job</li>
+              <li>Donors, include giving preference, General Pot or household ID</li>
+              <li>Partners, include role and integration needs</li>
+            </ul>
+            <p class="muted">Replace the email address in assets/js/main.js before publish.</p>
+          </div>
+
+          <div class="card">
+            <h2>Message</h2>
+            <form id="contact-form">
+              <label class="field">
+                <span>Name</span>
+                <input name="name" type="text" autocomplete="name" required />
+              </label>
+
+              <label class="field">
+                <span>Email</span>
+                <input name="email" type="email" autocomplete="email" required />
+              </label>
+
+              <label class="field">
+                <span>Topic</span>
+                <select name="topic" required>
+                  <option value="">Select</option>
+                  <option>Applicant</option>
+                  <option>Donor</option>
+                  <option>Partner</option>
+                  <option>Press</option>
+                  <option>Other</option>
+                </select>
+              </label>
+
+              <label class="field">
+                <span>Message</span>
+                <textarea name="message" rows="7" required></textarea>
+              </label>
+
+              <button class="btn" type="submit">Send</button>
+              <p class="muted" id="contact-status" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand">Home Owners Trust Fund</div>
+        <div class="footer-sub">HomeOwnersTrustFund.com</div>
+      </div>
+
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="model.html">Model</a>
+        <a href="rules.html">Rules</a>
+        <a href="process.html">Vetting</a>
+        <a href="donors.html">Donors</a>
+        <a href="tech.html">Tech</a>
+        <a href="faq.html">FAQ</a>
+      </div>
+
+      <div class="footer-legal">
+        <p class="muted">© <span data-year></span> Home Owners Trust Fund</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
 
