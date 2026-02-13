@@ -1,1 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tech, Home Owners Trust Fund</title>
+  <meta name="description" content="Privacy layer, Airtable and Stacker, property listing alerts, Stripe Connect, backend build brief." />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Home Owners Trust Fund">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-text">
+          <span class="brand-name">Home Owners Trust Fund</span>
+          <span class="brand-tag">One time grants. Debt free homes.</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" data-nav-toggle aria-controls="site-nav" aria-expanded="false">
+        Menu
+      </button>
+
+      <nav id="site-nav" class="site-nav" data-nav>
+        <a href="model.html">Model</a>
+        <a href="rules.html">Rules</a>
+        <a href="process.html">Vetting</a>
+        <a href="donors.html">Donors</a>
+        <a class="active" href="tech.html" aria-current="page">Tech</a>
+        <a href="faq.html">FAQ</a>
+        <a class="btn btn-small" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="page">
+    <section class="page-hero">
+      <div class="container">
+        <p class="kicker">Tech brief</p>
+        <h1>Privacy first stack</h1>
+        <p class="lead">Clear data boundaries. Automated enforcement signals. Simple public surface.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Platform components</h2>
+
+        <div class="grid-2">
+          <div class="panel">
+            <h3>Privacy layer</h3>
+            <ul class="bullets">
+              <li>Airtable for records</li>
+              <li>Stacker for role based views</li>
+              <li>PII stored encrypted</li>
+            </ul>
+          </div>
+
+          <div class="panel">
+            <h3>Anti flip tracker</h3>
+            <ul class="bullets">
+              <li>Property listing alerts through an API such as PropertyRadar</li>
+              <li>Triggers review if listed for sale or rent inside restriction window</li>
+              <li>Supports enforcement and repayment routing</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="grid-2">
+          <div class="panel">
+            <h3>Donor portal</h3>
+            <ul class="bullets">
+              <li>Stripe Connect</li>
+              <li>Destination charges route funds to a household ID ledger or to the General Pot</li>
+              <li>Receipts and basic ledger exports for reporting</li>
+            </ul>
+          </div>
+
+          <div class="panel">
+            <h3>Occupancy checks</h3>
+            <ul class="bullets">
+              <li>Annual check of property tax records</li>
+              <li>Homestead exemption status check</li>
+              <li>Flags route to manual review</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <h2>Backend helper summary</h2>
+        <div class="stack">
+          <div class="panel">
+            <h3>Logic engine</h3>
+            <p>Multi stage pass fail engine matching the four step gates.</p>
+          </div>
+          <div class="panel">
+            <h3>Zero waste filters</h3>
+            <p>Filter by zip code median price and household headcount to reduce mismatch.</p>
+          </div>
+          <div class="panel">
+            <h3>Lifetime limit flags</h3>
+            <p>Flag SSNs for the lifetime household limit rule set.</p>
+          </div>
+          <div class="panel">
+            <h3>Grant lien tracking</h3>
+            <p>Track restriction windows and repayment triggers.</p>
+          </div>
+          <div class="panel">
+            <h3>Directed funding IDs</h3>
+            <p>Assign unique IDs for directed donations and story browsing.</p>
+          </div>
+        </div>
+
+        <div class="callout">
+          <div class="callout-text">
+            <h3>GitHub Pages role</h3>
+            <p>Public facing pages, rules, and intake routing. No PII on this static site.</p>
+          </div>
+          <a class="btn btn-small" href="contact.html">Build partner inquiry</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand">Home Owners Trust Fund</div>
+        <div class="footer-sub">HomeOwnersTrustFund.com</div>
+      </div>
+
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="model.html">Model</a>
+        <a href="rules.html">Rules</a>
+        <a href="process.html">Vetting</a>
+        <a href="donors.html">Donors</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div class="footer-legal">
+        <p class="muted">© <span data-year></span> Home Owners Trust Fund</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
 
